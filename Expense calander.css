@@ -1,0 +1,27 @@
+.calendar-container {
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+}
+
+.react-calendar {
+    display: block !important;
+    visibility: visible !important;
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.highlight {
+    background-color: #ffcccb !important; /* Light red for expense days */
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+}
+.highlight-expense {
+    background: lightcoral;
+    border-radius: 50%;
+    color: white;
+}
